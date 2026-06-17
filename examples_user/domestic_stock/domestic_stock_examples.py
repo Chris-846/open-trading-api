@@ -18,6 +18,10 @@ trenv = ka.getTREnv()
 # 국내주식 샘플 코드 실행 (examples_user/domestic_stock/)
 uv run python domestic_stock_examples.py
 
+# 삼성전자 현재가 시세 조회
+result = inquire_price(env_dv="real", fid_cond_mrkt_div_code="J", fid_input_iscd="005930")
+print(result)
+
 ##############################################################################################
 # [국내주식] 기본시세 > 국내주식 시간외잔량 순위[v1_국내주식-093]
 ##############################################################################################
