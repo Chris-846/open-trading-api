@@ -14,6 +14,9 @@ from inquire_price import inquire_price
 # 로깅 설정
 logging.basicConfig(level=logging.INFO)
 
+# 국내주식 > 주식현재가 시세 샘플 코드 실행 (examples_llm/domestic_stock/inquire_price/)
+uv run python chk_inquire_price.py
+
 ##############################################################################################
 # [국내주식] 기본시세 > 주식현재가 시세[v1_국내주식-008]
 ##############################################################################################
